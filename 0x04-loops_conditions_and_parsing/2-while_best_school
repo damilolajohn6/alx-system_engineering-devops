@@ -1,0 +1,10 @@
+#!/bin/env bash
+# Displays 'Best School' in stdout 10 times using a while loop
+
+counter=1
+
+while [ $counter -le 10 ]
+do
+    echo "Best School"
+    ((counter++))
+done
